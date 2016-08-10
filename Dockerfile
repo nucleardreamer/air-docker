@@ -11,7 +11,6 @@ RUN dpkg --add-architecture i386 && \
   echo 'deb http://old-releases.ubuntu.com/ubuntu/ raring main restricted universe multiverse' >> /etc/apt/sources.list && \
   apt-get update -y && \
   apt-get install -y -q \
-  libudev-dev \
   build-essential \
   psmisc \
   ia32-libs
