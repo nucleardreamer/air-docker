@@ -1,5 +1,10 @@
 FROM ubuntu:trusty
 
+MAINTAINER Flynn Joffray <nucleardreamer@gmail.com>
+LABEL AUTHOR="Flynn Joffray <nucleardreamer@gmail.com>"
+LABEL NAME="air-docker"
+LABEL VERSION="0.1.0"
+
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386 && \
